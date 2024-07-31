@@ -1,0 +1,21 @@
+Grupo 5
+=========
+
+Município                               UF    População
+-------------------------------------------------------
+Angra dos Reis                          RJ       210171
+Belo Horizonte                          MG      2530701
+Cabo Frio                               RJ       234077
+Campo Grande                            MS       916001
+Caruaru                                 PE       369343
+Fortaleza                               CE      2703391
+Hortolândia                             SP       237570
+Indaiatuba                              SP       260690
+Lauro de Freitas                        BA       204669
+Magé                                    RJ       247741
+Passo Fundo                             RS       206103
+Porto Alegre                            RS      1492530
+Recife                                  PE      1661017
+Salvador                                BA      2900319
+São Luís                                MA      1115932
+São Vicente                             SP       370839
