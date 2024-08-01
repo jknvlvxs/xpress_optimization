@@ -8,7 +8,7 @@ declarations
   nsp = 4                         ! Número de subprodutos do petróleo
   MaxPetr = 4666000               ! Produção de petróleo em Macaé
   CapRefino = 500000              ! Capacidade de cada refinaria
-  CustoInst = 100000000           ! Custo de cada refinaria
+  CustoInst = 100000000           ! Custo de cada refinaria (barris/dia)
   CTP = 0.40                      ! Custo de Transporte do petróleo (m3/km)
   CTS = 4.55                      ! Custo de Transporte dos subprodutos (m3/km)
   Cid = 1..nCid
@@ -56,10 +56,16 @@ end-do
 
 CFixo := sum(i in Cid) CustoInst * y(i)							! Custo de instalação das refinarias em cada cidade
 C1 := sum(i in Cid) * CTP * D1(i) * x1(i)						! Custo de transporte de petróleo para cada refininaria
-C2 := sum(i in Cid, j in Cid, k in sp) * CTS * D2(i,j) * x2(i,j,k) * DemJK(j,k)		! Custo de transporte de subprodutos para cada consumidor
+C2 := sum(i in Cid, j in Cid, k in sp) * CTS * D2(i,j) * x2(i,j,k) * DemJK(j,k)		! Custo de transporte de subprodutos para cada cidade consumidora
 CTot := CFixo + C1 + C2
 
 ! Restrições
+
+sum(i in Cid) x1(i) <= 4666000 * 160 / 1000						! Capacidade da fábrica
+forall (j in Cid, k in sp) sum(i in Cid, j in Cid, k in sp) x(i,j,k) == 1		! Demanda das cidades consumidoras
+forall (i in Cid, k in sp) x1(i) * Trns(k) >= sum(j in Cid) x2(j) * DemJK(j,k)		! Produção de subprodutos nas refinarias
+forall (i in Cid) x1(i) <= y(i) * CapRefino(i) * 160 / 1000				! Capacidade da refinaria
+
 
 ! Resolver modelo
 writeln("Begin running model")
