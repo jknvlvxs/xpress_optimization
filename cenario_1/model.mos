@@ -2,7 +2,7 @@ model Trab3_2024
 uses "mmxprs"; !gain access to the Xpress-Optimizer solver
 
 setparam("XPRS_MIPRELSTOP",1.0e-08)
-fopen("output.txt", F_OUTPUT)
+!fopen("output.txt", F_OUTPUT)
 
 declarations
   nCid = 16                       ! Número de cidades
@@ -25,7 +25,8 @@ declarations
   y: array(Cid) of mpvar
   x1: array(Cid) of mpvar         ! m3 de petróleo transportados
   x2: array(Cid,Cid,sp) of mpvar  ! % da demanda de subprodutos transportados
-  CFixo, C1, C2, CTot: linctr      ! Custos calculados
+  !x2c4: array(Cid,Cid) of mpvar  ! % da demanda de subprodutos transportados
+  CFixo, C1, C2, CTot: mpvar      ! Custos calculados
   sobra, tot, vx2: real
 end-declarations
 
@@ -84,16 +85,17 @@ forall (j in Cid, k in sp) do
 end-do
 
 ! Composição da FO:
-CFixo := sum(i in Cid) CustoInst * y(i)							! Custo de instalação das refinarias em cada cidade
-C1 := sum(i in Cid) CTP * D1(i) * x1(i)						! Custo de transporte de petróleo para cada refinaria
-C2 := sum(i in Cid, j in Cid, k in sp) CTS * D2(i,j) * x2(i,j,k) * DemJK(j,k)		! Custo de transporte de subprodutos para cada cidade consumidora
-CTot := CFixo + C1 + C2
+CFixo = sum(i in Cid) CustoInst * y(i)							  ! Custo de instalação das refinarias em cada cidade
+C1 = sum(i in Cid) CTP * x1(i) * D1(i)						    ! Custo de transporte de petróleo para cada refinaria
+C2 = sum(i in Cid, j in Cid, k in sp) CTS * D2(i,j) * x2(i,j,k) * DemJK(j,k)		! Custo de transporte de subprodutos para cada cidade consumidora
+CTot = CFixo + C1 + C2
 
 ! Restrições
-sum(i in Cid) x1(i) <= 4666000 * 160 / 1000						! Capacidade da fábrica
-forall (j in Cid, k in sp) sum(i in Cid) x2(i,j,k) = 1		! Demanda das cidades consumidoras
-forall (i in Cid, k in sp) x1(i) * Trns(k) >= sum(j in Cid) x2(j,i,k) * DemJK(j,k)		! Produção de subprodutos nas refinarias
-forall (i in Cid) x1(i) <= y(i) * CapRefino * 160 / 1000				! Capacidade de cada refinaria
+forall(i in Cid) y(i) is_binary                               ! Restrição de y como binário
+sum(i in Cid) x1(i) <= MaxPetr * 160 / 1000						        ! Capacidade da fábrica
+forall (j in Cid, k in sp) sum(i in Cid) x2(i,j,k) = 1		    ! Demanda das cidades consumidoras
+forall (i in Cid, k in sp) x1(i) * Trns(k) >= sum(j in Cid) x2(i,j,k) * DemJK(j,k)		! Produção de subprodutos nas refinarias
+forall (i in Cid) x1(i) <= CapRefino * 160 / 1000 * y(i) 			! Capacidade de cada refinaria
 
 
 ! Resolver modelo

@@ -3,178 +3,106 @@ End running model
 
 --------------------------------------------------
 
-Custo total:                       203265395.54
-Custo Refinarias:                   99739578.40
-Custo Transporte petroleo:          40126880.53
-Custo de Transporte subprodutos:    63398936.60
+Custo total:                       624176865.21
+Custo Refinarias:                  400000000.00
+Custo Transporte petroleo:         124363864.80
+Custo de Transporte subprodutos:    99813000.41
 
 Refinarias instaladas:
 
-Angra dos Reis     :     3599.2
-Belo Horizonte     :     4242.6
-Cabo Frio          :     3599.2
-Campo Grande       :     7168.7
-Caruaru            :     3505.0
-Fortaleza          :    14153.0
-Hortolândia        :     3599.2
-Indaiatuba         :     3599.2
-Lauro de Freitas   :     3505.0
-Magé               :     3599.2
-Passo Fundo        :     3529.5
-Porto Alegre       :     3529.5
-Recife             :     6325.0
-Salvador           :     3505.0
-São Luís           :     8733.4
-São Vicente        :     3599.2
+Belo Horizonte     :    80000.0
+Fortaleza          :    73348.7
+Porto Alegre       :    34847.5
+Salvador           :    80000.0
 ---------------------------------
-Total de petróleo  :    79791.7
-Sobra de petróleo  :  4586208.3
+Total de petróleo  :   268196.2
+Sobra de petróleo  :  4397803.8
 
 Envio total e sobra de subprodutos:
 
-Refinaria Angra dos Reis     : Diesel   :   374.10   Sobra:   849.62
-Refinaria Angra dos Reis     : Gasolina :   378.31   Sobra:   449.50
-Refinaria Angra dos Reis     : GLP      :   178.65   Sobra:   109.29
-Refinaria Angra dos Reis     : Naftas   :  2138.69   Sobra: -1850.76
-Refinaria Belo Horizonte     : Diesel   :  1110.17   Sobra:   332.30
-Refinaria Belo Horizonte     : Gasolina :   587.35   Sobra:   388.44
-Refinaria Belo Horizonte     : GLP      :   142.81   Sobra:   196.60
-Refinaria Cabo Frio          : Diesel   :   416.66   Sobra:   807.06
-Refinaria Cabo Frio          : Gasolina :   421.34   Sobra:   406.47
-Refinaria Cabo Frio          : GLP      :   198.97   Sobra:    88.97
-Refinaria Campo Grande       : Diesel   :  1630.48   Sobra:   806.88
-Refinaria Campo Grande       : Gasolina :  1648.80   Sobra:     0.00
-Refinaria Campo Grande       : GLP      :   501.67   Sobra:    71.82
-Refinaria Campo Grande       : Naftas   :   334.88   Sobra:   238.62
-Refinaria Caruaru            : Diesel   :  1694.04   Sobra:  -502.36
-Refinaria Caruaru            : Gasolina :  4504.66   Sobra: -3698.52
-Refinaria Caruaru            : GLP      :  2753.68   Sobra: -2473.29
-Refinaria Caruaru            : Naftas   :  5253.90   Sobra: -4973.50
-Refinaria Fortaleza          : Diesel   :  4812.04   Sobra:     0.00
-Refinaria Fortaleza          : Gasolina :  3000.29   Sobra:   254.91
-Refinaria Fortaleza          : GLP      :   947.79   Sobra:   184.45
-Refinaria Fortaleza          : Naftas   :   725.34   Sobra:   406.90
-Refinaria Hortolândia        : Diesel   :   422.87   Sobra:   800.85
-Refinaria Hortolândia        : Gasolina :   427.63   Sobra:   400.19
-Refinaria Hortolândia        : GLP      :   554.77   Sobra:  -266.83
-Refinaria Hortolândia        : Naftas   :   920.04   Sobra:  -632.11
-Refinaria Indaiatuba         : Diesel   :   464.03   Sobra:   759.69
-Refinaria Indaiatuba         : Gasolina :   469.24   Sobra:   358.57
-Refinaria Indaiatuba         : GLP      :   221.59   Sobra:    66.35
-Refinaria Lauro de Freitas   : Diesel   :  4636.69   Sobra: -3445.00
-Refinaria Lauro de Freitas   : Gasolina :  5118.01   Sobra: -4311.87
-Refinaria Lauro de Freitas   : GLP      :  2905.96   Sobra: -2625.56
-Refinaria Lauro de Freitas   : Naftas   :  5776.44   Sobra: -5496.05
-Refinaria Magé               : Diesel   :  3835.45   Sobra: -2611.73
-Refinaria Magé               : Gasolina :  4413.84   Sobra: -3586.03
-Refinaria Magé               : GLP      :  2218.87   Sobra: -1930.94
-Refinaria Magé               : Naftas   :  3467.06   Sobra: -3179.13
-Refinaria Passo Fundo        : Diesel   :  2056.91   Sobra:  -856.88
-Refinaria Passo Fundo        : Gasolina :  2546.11   Sobra: -1734.33
-Refinaria Passo Fundo        : GLP      :  1319.49   Sobra: -1037.13
-Refinaria Passo Fundo        : Naftas   :  2327.13   Sobra: -2044.77
-Refinaria Porto Alegre       : Diesel   :   966.66   Sobra:   233.38
-Refinaria Porto Alegre       : Gasolina :   511.43   Sobra:   300.36
-Refinaria Porto Alegre       : GLP      :   124.34   Sobra:   158.02
-Refinaria Recife             : Diesel   :  1920.00   Sobra:   230.50
-Refinaria Recife             : Gasolina :  1015.81   Sobra:   438.94
-Refinaria Recife             : GLP      :   246.98   Sobra:   259.02
-Refinaria Salvador           : Diesel   :   890.19   Sobra:   301.49
-Refinaria Salvador           : Gasolina :   470.97   Sobra:   335.17
-Refinaria Salvador           : GLP      :   114.51   Sobra:   165.89
-Refinaria São Luís           : Diesel   :  1986.36   Sobra:   982.99
-Refinaria São Luís           : Gasolina :  2008.68   Sobra:     0.00
-Refinaria São Luís           : GLP      :   642.55   Sobra:    56.12
-Refinaria São Luís           : Naftas   :   512.22   Sobra:   186.45
-Refinaria São Vicente        : Diesel   :   660.09   Sobra:   563.63
-Refinaria São Vicente        : Gasolina :   667.51   Sobra:   160.30
-Refinaria São Vicente        : GLP      :   239.31   Sobra:    48.63
+Refinaria Belo Horizonte     : Diesel   :  7283.38   Sobra: 19916.62
+Refinaria Belo Horizonte     : Gasolina :  7365.22   Sobra: 11034.78
+Refinaria Belo Horizonte     : GLP      :  3478.02   Sobra:  2921.98
+Refinaria Belo Horizonte     : Naftas   :  6400.00   Sobra:    -0.00
+Refinaria Fortaleza          : Diesel   : 10412.44   Sobra: 14526.14
+Refinaria Fortaleza          : Gasolina : 10529.43   Sobra:  6340.78
+Refinaria Fortaleza          : GLP      :  4972.23   Sobra:   895.67
+Refinaria Fortaleza          : Naftas   :  5867.90   Sobra:     0.00
+Refinaria Porto Alegre       : Diesel   :  4654.05   Sobra:  7194.10
+Refinaria Porto Alegre       : Gasolina :  4706.34   Sobra:  3308.58
+Refinaria Porto Alegre       : GLP      :  2222.44   Sobra:   565.36
+Refinaria Porto Alegre       : Naftas   :  2787.80   Sobra:     0.00
+Refinaria Salvador           : Diesel   :  5526.88   Sobra: 21673.12
+Refinaria Salvador           : Gasolina :  5588.98   Sobra: 12811.02
+Refinaria Salvador           : GLP      :  2639.24   Sobra:  3760.76
+Refinaria Salvador           : Naftas   :  6400.00   Sobra:    -0.00
 
 Quantidades transportadas dos subprodutos:
 
-1: Angra dos Reis      --> Angra dos Reis     : Diesel  :   374.10
-2: Angra dos Reis      --> Angra dos Reis     : Gasolina:   378.31
-3: Angra dos Reis      --> Angra dos Reis     : GLP     :   178.65
-4: Angra dos Reis      --> Angra dos Reis     : Naftas  :   287.93
-4: Angra dos Reis      --> Cabo Frio          : Naftas  :   320.69
-4: Angra dos Reis      --> Hortolândia        : Naftas  :   325.47
-4: Angra dos Reis      --> Indaiatuba         : Naftas  :   357.15
-4: Angra dos Reis      --> Magé               : Naftas  :   339.41
-4: Angra dos Reis      --> São Vicente        : Naftas  :   508.05
-1: Belo Horizonte      --> Belo Horizonte     : Diesel  :  1110.17
-2: Belo Horizonte      --> Belo Horizonte     : Gasolina:   587.35
-3: Belo Horizonte      --> Belo Horizonte     : GLP     :   142.81
-1: Cabo Frio           --> Cabo Frio          : Diesel  :   416.66
-2: Cabo Frio           --> Cabo Frio          : Gasolina:   421.34
-3: Cabo Frio           --> Cabo Frio          : GLP     :   198.97
-1: Campo Grande        --> Campo Grande       : Diesel  :  1630.48
-2: Campo Grande        --> Campo Grande       : Gasolina:  1648.80
-3: Campo Grande        --> Campo Grande       : GLP     :   501.67
-4: Campo Grande        --> Campo Grande       : Naftas  :   334.88
-1: Caruaru             --> Caruaru            : Diesel  :   657.43
-2: Caruaru             --> Caruaru            : Gasolina:   664.82
-3: Caruaru             --> Caruaru            : GLP     :   238.70
-2: Caruaru             --> Fortaleza          : Gasolina:  1865.81
-3: Caruaru             --> Fortaleza          : GLP     :  1350.09
-4: Caruaru             --> Fortaleza          : Naftas  :  2978.30
-1: Caruaru             --> Recife             : Diesel  :  1036.61
-2: Caruaru             --> Recife             : Gasolina:  1974.02
-3: Caruaru             --> Recife             : GLP     :  1164.89
-4: Caruaru             --> Recife             : Naftas  :  2275.59
+1: Belo Horizonte      --> Angra dos Reis     : Diesel  :   374.10
+2: Belo Horizonte      --> Angra dos Reis     : Gasolina:   378.31
+3: Belo Horizonte      --> Angra dos Reis     : GLP     :   178.65
+4: Belo Horizonte      --> Angra dos Reis     : Naftas  :   287.93
+1: Belo Horizonte      --> Belo Horizonte     : Diesel  :  4504.65
+2: Belo Horizonte      --> Belo Horizonte     : Gasolina:  4555.26
+3: Belo Horizonte      --> Belo Horizonte     : GLP     :  2151.10
+4: Belo Horizonte      --> Belo Horizonte     : Naftas  :  3467.06
+1: Belo Horizonte      --> Cabo Frio          : Diesel  :   416.66
+2: Belo Horizonte      --> Cabo Frio          : Gasolina:   421.34
+3: Belo Horizonte      --> Cabo Frio          : GLP     :   198.97
+4: Belo Horizonte      --> Cabo Frio          : Naftas  :   320.69
+4: Belo Horizonte      --> Campo Grande       : Naftas  :   794.25
+1: Belo Horizonte      --> Hortolândia        : Diesel  :   422.87
+2: Belo Horizonte      --> Hortolândia        : Gasolina:   427.63
+3: Belo Horizonte      --> Hortolândia        : GLP     :   201.93
+4: Belo Horizonte      --> Hortolândia        : Naftas  :   325.47
+1: Belo Horizonte      --> Indaiatuba         : Diesel  :   464.03
+2: Belo Horizonte      --> Indaiatuba         : Gasolina:   469.24
+3: Belo Horizonte      --> Indaiatuba         : GLP     :   221.59
+4: Belo Horizonte      --> Indaiatuba         : Naftas  :   357.15
+1: Belo Horizonte      --> Magé               : Diesel  :   440.98
+2: Belo Horizonte      --> Magé               : Gasolina:   445.93
+3: Belo Horizonte      --> Magé               : GLP     :   210.58
+4: Belo Horizonte      --> Magé               : Naftas  :   339.41
+1: Belo Horizonte      --> São Vicente        : Diesel  :   660.09
+2: Belo Horizonte      --> São Vicente        : Gasolina:   667.51
+3: Belo Horizonte      --> São Vicente        : GLP     :   315.21
+4: Belo Horizonte      --> São Vicente        : Naftas  :   508.05
+1: Fortaleza           --> Caruaru            : Diesel  :   657.43
+2: Fortaleza           --> Caruaru            : Gasolina:   664.82
+3: Fortaleza           --> Caruaru            : GLP     :   313.94
 1: Fortaleza           --> Fortaleza          : Diesel  :  4812.04
-2: Fortaleza           --> Fortaleza          : Gasolina:  3000.29
-3: Fortaleza           --> Fortaleza          : GLP     :   947.79
-4: Fortaleza           --> Fortaleza          : Naftas  :   725.34
-3: Hortolândia         --> Campo Grande       : GLP     :   276.93
-4: Hortolândia         --> Campo Grande       : Naftas  :   920.04
-1: Hortolândia         --> Hortolândia        : Diesel  :   422.87
-2: Hortolândia         --> Hortolândia        : Gasolina:   427.63
-3: Hortolândia         --> Hortolândia        : GLP     :   201.93
-3: Hortolândia         --> São Vicente        : GLP     :    75.91
-1: Indaiatuba          --> Indaiatuba         : Diesel  :   464.03
-2: Indaiatuba          --> Indaiatuba         : Gasolina:   469.24
-3: Indaiatuba          --> Indaiatuba         : GLP     :   221.59
-3: Lauro de Freitas    --> Caruaru            : GLP     :    75.24
-4: Lauro de Freitas    --> Caruaru            : Naftas  :   506.00
-1: Lauro de Freitas    --> Lauro de Freitas   : Diesel  :   364.31
-2: Lauro de Freitas    --> Lauro de Freitas   : Gasolina:   368.40
-3: Lauro de Freitas    --> Lauro de Freitas   : GLP     :   173.97
-4: Lauro de Freitas    --> Lauro de Freitas   : Naftas  :   280.40
-1: Lauro de Freitas    --> Salvador           : Diesel  :  4272.37
-2: Lauro de Freitas    --> Salvador           : Gasolina:  4749.60
-3: Lauro de Freitas    --> Salvador           : GLP     :  2350.76
-4: Lauro de Freitas    --> Salvador           : Naftas  :  3973.44
-3: Lauro de Freitas    --> São Luís           : GLP     :   305.99
-4: Lauro de Freitas    --> São Luís           : Naftas  :  1016.61
-1: Magé                --> Belo Horizonte     : Diesel  :  3394.48
-2: Magé                --> Belo Horizonte     : Gasolina:  3967.91
-3: Magé                --> Belo Horizonte     : GLP     :  2008.29
-4: Magé                --> Belo Horizonte     : Naftas  :  3467.06
-1: Magé                --> Magé               : Diesel  :   440.98
-2: Magé                --> Magé               : Gasolina:   445.93
-3: Magé                --> Magé               : GLP     :   210.58
-1: Passo Fundo         --> Passo Fundo        : Diesel  :   366.86
-2: Passo Fundo         --> Passo Fundo        : Gasolina:   370.99
-3: Passo Fundo         --> Passo Fundo        : GLP     :   175.19
-4: Passo Fundo         --> Passo Fundo        : Naftas  :   282.36
-1: Passo Fundo         --> Porto Alegre       : Diesel  :  1690.05
-2: Passo Fundo         --> Porto Alegre       : Gasolina:  2175.13
-3: Passo Fundo         --> Porto Alegre       : GLP     :  1144.31
-4: Passo Fundo         --> Porto Alegre       : Naftas  :  2044.77
-1: Porto Alegre        --> Porto Alegre       : Diesel  :   966.66
-2: Porto Alegre        --> Porto Alegre       : Gasolina:   511.43
-3: Porto Alegre        --> Porto Alegre       : GLP     :   124.34
-1: Recife              --> Recife             : Diesel  :  1920.00
-2: Recife              --> Recife             : Gasolina:  1015.81
-3: Recife              --> Recife             : GLP     :   246.98
-1: Salvador            --> Salvador           : Diesel  :   890.19
-2: Salvador            --> Salvador           : Gasolina:   470.97
-3: Salvador            --> Salvador           : GLP     :   114.51
-1: São Luís            --> São Luís           : Diesel  :  1986.36
-2: São Luís            --> São Luís           : Gasolina:  2008.68
-3: São Luís            --> São Luís           : GLP     :   642.55
-4: São Luís            --> São Luís           : Naftas  :   512.22
-1: São Vicente         --> São Vicente        : Diesel  :   660.09
-2: São Vicente         --> São Vicente        : Gasolina:   667.51
-3: São Vicente         --> São Vicente        : GLP     :   239.31
+2: Fortaleza           --> Fortaleza          : Gasolina:  4866.10
+3: Fortaleza           --> Fortaleza          : GLP     :  2297.88
+4: Fortaleza           --> Fortaleza          : Naftas  :  3703.65
+1: Fortaleza           --> Recife             : Diesel  :  2956.61
+2: Fortaleza           --> Recife             : Gasolina:  2989.83
+3: Fortaleza           --> Recife             : GLP     :  1411.86
+4: Fortaleza           --> Recife             : Naftas  :   635.43
+1: Fortaleza           --> São Luís           : Diesel  :  1986.36
+2: Fortaleza           --> São Luís           : Gasolina:  2008.68
+3: Fortaleza           --> São Luís           : GLP     :   948.54
+4: Fortaleza           --> São Luís           : Naftas  :  1528.83
+1: Porto Alegre        --> Campo Grande       : Diesel  :  1630.48
+2: Porto Alegre        --> Campo Grande       : Gasolina:  1648.80
+3: Porto Alegre        --> Campo Grande       : GLP     :   778.60
+4: Porto Alegre        --> Campo Grande       : Naftas  :   460.67
+1: Porto Alegre        --> Passo Fundo        : Diesel  :   366.86
+2: Porto Alegre        --> Passo Fundo        : Gasolina:   370.99
+3: Porto Alegre        --> Passo Fundo        : GLP     :   175.19
+4: Porto Alegre        --> Passo Fundo        : Naftas  :   282.36
+1: Porto Alegre        --> Porto Alegre       : Diesel  :  2656.70
+2: Porto Alegre        --> Porto Alegre       : Gasolina:  2686.55
+3: Porto Alegre        --> Porto Alegre       : GLP     :  1268.65
+4: Porto Alegre        --> Porto Alegre       : Naftas  :  2044.77
+4: Salvador            --> Caruaru            : Naftas  :   506.00
+1: Salvador            --> Lauro de Freitas   : Diesel  :   364.31
+2: Salvador            --> Lauro de Freitas   : Gasolina:   368.40
+3: Salvador            --> Lauro de Freitas   : GLP     :   173.97
+4: Salvador            --> Lauro de Freitas   : Naftas  :   280.40
+4: Salvador            --> Recife             : Naftas  :  1640.17
+1: Salvador            --> Salvador           : Diesel  :  5162.57
+2: Salvador            --> Salvador           : Gasolina:  5220.57
+3: Salvador            --> Salvador           : GLP     :  2465.27
+4: Salvador            --> Salvador           : Naftas  :  3973.44
 ----------------------------------------------------------------
