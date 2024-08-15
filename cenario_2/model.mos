@@ -64,7 +64,6 @@ CTot := CFixo + C1 + C2
 sum(i in Cid) x1(i) <= 4666000 * 160 / 1000						! Capacidade da fábrica
 forall (j in Cid, k in sp) sum(i in Cid, j in Cid, k in sp) x(i,j,k) == 1		! Demanda das cidades consumidoras
 forall (i in Cid, k in sp) x1(i) * Trns(k) >= sum(j in Cid) x2(j) * DemJK(j,k)		! Produção de subprodutos nas refinarias
-forall (i in Cid) x1(i) <= y(i) * CapRefino(i) * 160 / 1000				! Capacidade da refinaria
 
 
 ! Resolver modelo
