@@ -95,7 +95,7 @@ sum(i in Cid) x1(i) <= MaxPetr * 160 / 1000						        ! Capacidade da fábric
 forall (j in Cid, k in sp) sum(i in Cid) x2(i,j,k) = 1		    ! Demanda das cidades consumidoras
 forall (i in Cid, k in sp) x1(i) * Trns(k) >= sum(j in Cid) x2(i,j,k) * DemJK(j,k)		! Produção de subprodutos nas refinarias
 forall (i in Cid) x1(i) <= CapRefino * 160 / 1000 * y(i) 			! Capacidade de cada refinaria
-
+sum(i in Cid) y(i) = 1                                        ! Apenas uma refinaria pode ser instalada
 
 ! Resolver modelo
 writeln("Begin running model")

@@ -1,0 +1,91 @@
+Begin running model
+End running model
+
+--------------------------------------------------
+
+Custo total:                       597126014.26
+Custo Refinarias:                  100000000.00
+Custo Transporte petroleo:          35616459.97
+Custo de Transporte subprodutos:   461509554.29
+
+Refinarias instaladas:
+
+Belo Horizonte     :   268196.2
+---------------------------------
+Total de petróleo  :   268196.2
+Sobra de petróleo  :  4397803.8
+
+Envio total e sobra de subprodutos:
+
+Refinaria Belo Horizonte     : Diesel   : 27876.75   Sobra: 63309.97
+Refinaria Belo Horizonte     : Gasolina : 28189.97   Sobra: 33495.16
+Refinaria Belo Horizonte     : GLP      : 13311.93   Sobra:  8143.77
+Refinaria Belo Horizonte     : Naftas   : 21455.70   Sobra:     0.00
+
+Quantidades transportadas dos subprodutos:
+
+1: Belo Horizonte      --> Angra dos Reis     : Diesel  :   374.10
+2: Belo Horizonte      --> Angra dos Reis     : Gasolina:   378.31
+3: Belo Horizonte      --> Angra dos Reis     : GLP     :   178.65
+4: Belo Horizonte      --> Angra dos Reis     : Naftas  :   287.93
+1: Belo Horizonte      --> Belo Horizonte     : Diesel  :  4504.65
+2: Belo Horizonte      --> Belo Horizonte     : Gasolina:  4555.26
+3: Belo Horizonte      --> Belo Horizonte     : GLP     :  2151.10
+4: Belo Horizonte      --> Belo Horizonte     : Naftas  :  3467.06
+1: Belo Horizonte      --> Cabo Frio          : Diesel  :   416.66
+2: Belo Horizonte      --> Cabo Frio          : Gasolina:   421.34
+3: Belo Horizonte      --> Cabo Frio          : GLP     :   198.97
+4: Belo Horizonte      --> Cabo Frio          : Naftas  :   320.69
+1: Belo Horizonte      --> Campo Grande       : Diesel  :  1630.48
+2: Belo Horizonte      --> Campo Grande       : Gasolina:  1648.80
+3: Belo Horizonte      --> Campo Grande       : GLP     :   778.60
+4: Belo Horizonte      --> Campo Grande       : Naftas  :  1254.92
+1: Belo Horizonte      --> Caruaru            : Diesel  :   657.43
+2: Belo Horizonte      --> Caruaru            : Gasolina:   664.82
+3: Belo Horizonte      --> Caruaru            : GLP     :   313.94
+4: Belo Horizonte      --> Caruaru            : Naftas  :   506.00
+1: Belo Horizonte      --> Fortaleza          : Diesel  :  4812.04
+2: Belo Horizonte      --> Fortaleza          : Gasolina:  4866.10
+3: Belo Horizonte      --> Fortaleza          : GLP     :  2297.88
+4: Belo Horizonte      --> Fortaleza          : Naftas  :  3703.65
+1: Belo Horizonte      --> Hortolândia        : Diesel  :   422.87
+2: Belo Horizonte      --> Hortolândia        : Gasolina:   427.63
+3: Belo Horizonte      --> Hortolândia        : GLP     :   201.93
+4: Belo Horizonte      --> Hortolândia        : Naftas  :   325.47
+1: Belo Horizonte      --> Indaiatuba         : Diesel  :   464.03
+2: Belo Horizonte      --> Indaiatuba         : Gasolina:   469.24
+3: Belo Horizonte      --> Indaiatuba         : GLP     :   221.59
+4: Belo Horizonte      --> Indaiatuba         : Naftas  :   357.15
+1: Belo Horizonte      --> Lauro de Freitas   : Diesel  :   364.31
+2: Belo Horizonte      --> Lauro de Freitas   : Gasolina:   368.40
+3: Belo Horizonte      --> Lauro de Freitas   : GLP     :   173.97
+4: Belo Horizonte      --> Lauro de Freitas   : Naftas  :   280.40
+1: Belo Horizonte      --> Magé               : Diesel  :   440.98
+2: Belo Horizonte      --> Magé               : Gasolina:   445.93
+3: Belo Horizonte      --> Magé               : GLP     :   210.58
+4: Belo Horizonte      --> Magé               : Naftas  :   339.41
+1: Belo Horizonte      --> Passo Fundo        : Diesel  :   366.86
+2: Belo Horizonte      --> Passo Fundo        : Gasolina:   370.99
+3: Belo Horizonte      --> Passo Fundo        : GLP     :   175.19
+4: Belo Horizonte      --> Passo Fundo        : Naftas  :   282.36
+1: Belo Horizonte      --> Porto Alegre       : Diesel  :  2656.70
+2: Belo Horizonte      --> Porto Alegre       : Gasolina:  2686.55
+3: Belo Horizonte      --> Porto Alegre       : GLP     :  1268.65
+4: Belo Horizonte      --> Porto Alegre       : Naftas  :  2044.77
+1: Belo Horizonte      --> Recife             : Diesel  :  2956.61
+2: Belo Horizonte      --> Recife             : Gasolina:  2989.83
+3: Belo Horizonte      --> Recife             : GLP     :  1411.86
+4: Belo Horizonte      --> Recife             : Naftas  :  2275.59
+1: Belo Horizonte      --> Salvador           : Diesel  :  5162.57
+2: Belo Horizonte      --> Salvador           : Gasolina:  5220.57
+3: Belo Horizonte      --> Salvador           : GLP     :  2465.27
+4: Belo Horizonte      --> Salvador           : Naftas  :  3973.44
+1: Belo Horizonte      --> São Luís           : Diesel  :  1986.36
+2: Belo Horizonte      --> São Luís           : Gasolina:  2008.68
+3: Belo Horizonte      --> São Luís           : GLP     :   948.54
+4: Belo Horizonte      --> São Luís           : Naftas  :  1528.83
+1: Belo Horizonte      --> São Vicente        : Diesel  :   660.09
+2: Belo Horizonte      --> São Vicente        : Gasolina:   667.51
+3: Belo Horizonte      --> São Vicente        : GLP     :   315.21
+4: Belo Horizonte      --> São Vicente        : Naftas  :   508.05
+----------------------------------------------------------------
