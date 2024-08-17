@@ -2,13 +2,12 @@ model Trab3_2024
 uses "mmxprs"; !gain access to the Xpress-Optimizer solver
 
 setparam("XPRS_MIPRELSTOP",1.0e-08)
-!fopen("output.txt", F_OUTPUT)
 
 declarations
   nCid = 16                       ! Número de cidades
   nsp = 4                         ! Número de subprodutos do petróleo
   MaxPetr = 4666000               ! Produção de petróleo em Macaé
-  CapRefino = 500000              ! Capacidade de cada refinaria
+  CapRefino = 1000000000000000000 ! Capacidade de cada refinaria
   CustoInst = 100000000           ! Custo de cada refinaria (barris/dia)
   CTP = 0.40                      ! Custo de Transporte do petróleo (m3/km)
   CTS = 4.55                      ! Custo de Transporte dos subprodutos (m3/km)
@@ -95,7 +94,7 @@ forall(i in Cid) y(i) is_binary                               ! Restrição de y
 sum(i in Cid) x1(i) <= MaxPetr * 160 / 1000						        ! Capacidade da fábrica
 forall (j in Cid, k in sp) sum(i in Cid) x2(i,j,k) = 1		    ! Demanda das cidades consumidoras
 forall (i in Cid, k in sp) x1(i) * Trns(k) >= sum(j in Cid) x2(i,j,k) * DemJK(j,k)		! Produção de subprodutos nas refinarias
-! forall (i in Cid) x1(i) <= CapRefino * 160 / 1000 * y(i) 			! Capacidade de cada refinaria
+forall (i in Cid) x1(i) <= CapRefino * 160 / 1000 * y(i) 			! Capacidade de cada refinaria
 
 
 ! Resolver modelo
