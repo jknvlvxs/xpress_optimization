@@ -2,7 +2,6 @@ model Trab3_2024
 uses "mmxprs"; !gain access to the Xpress-Optimizer solver
 
 setparam("XPRS_MIPRELSTOP",1.0e-08)
-!fopen("output.txt", F_OUTPUT)
 
 declarations
   nCid = 16                       ! Número de cidades
