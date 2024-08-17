@@ -1,0 +1,91 @@
+Begin running model
+End running model
+
+--------------------------------------------------
+
+Custo total:                       515807334.84
+Custo Refinarias:                  100000000.00
+Custo Transporte petroleo:                 0.00
+Custo de Transporte subprodutos:   415807334.84
+
+Refinarias instaladas:
+
+Salvador           :   268196.2
+---------------------------------
+Total de petróleo  :   268196.2
+Sobra de petróleo  :  4397803.8
+
+Envio total e sobra de subprodutos:
+
+Refinaria Salvador           : Diesel   : 27876.75   Sobra: 63309.97
+Refinaria Salvador           : Gasolina : 28189.97   Sobra: 33495.16
+Refinaria Salvador           : GLP      : 13311.93   Sobra:  8143.77
+Refinaria Salvador           : Naftas   : 21455.70   Sobra:     0.00
+
+Quantidades transportadas dos subprodutos:
+
+1: Salvador            --> Angra dos Reis     : Diesel  :   374.10
+2: Salvador            --> Angra dos Reis     : Gasolina:   378.31
+3: Salvador            --> Angra dos Reis     : GLP     :   178.65
+4: Salvador            --> Angra dos Reis     : Naftas  :   287.93
+1: Salvador            --> Belo Horizonte     : Diesel  :  4504.65
+2: Salvador            --> Belo Horizonte     : Gasolina:  4555.26
+3: Salvador            --> Belo Horizonte     : GLP     :  2151.10
+4: Salvador            --> Belo Horizonte     : Naftas  :  3467.06
+1: Salvador            --> Cabo Frio          : Diesel  :   416.66
+2: Salvador            --> Cabo Frio          : Gasolina:   421.34
+3: Salvador            --> Cabo Frio          : GLP     :   198.97
+4: Salvador            --> Cabo Frio          : Naftas  :   320.69
+1: Salvador            --> Campo Grande       : Diesel  :  1630.48
+2: Salvador            --> Campo Grande       : Gasolina:  1648.80
+3: Salvador            --> Campo Grande       : GLP     :   778.60
+4: Salvador            --> Campo Grande       : Naftas  :  1254.92
+1: Salvador            --> Caruaru            : Diesel  :   657.43
+2: Salvador            --> Caruaru            : Gasolina:   664.82
+3: Salvador            --> Caruaru            : GLP     :   313.94
+4: Salvador            --> Caruaru            : Naftas  :   506.00
+1: Salvador            --> Fortaleza          : Diesel  :  4812.04
+2: Salvador            --> Fortaleza          : Gasolina:  4866.10
+3: Salvador            --> Fortaleza          : GLP     :  2297.88
+4: Salvador            --> Fortaleza          : Naftas  :  3703.65
+1: Salvador            --> Hortolândia        : Diesel  :   422.87
+2: Salvador            --> Hortolândia        : Gasolina:   427.63
+3: Salvador            --> Hortolândia        : GLP     :   201.93
+4: Salvador            --> Hortolândia        : Naftas  :   325.47
+1: Salvador            --> Indaiatuba         : Diesel  :   464.03
+2: Salvador            --> Indaiatuba         : Gasolina:   469.24
+3: Salvador            --> Indaiatuba         : GLP     :   221.59
+4: Salvador            --> Indaiatuba         : Naftas  :   357.15
+1: Salvador            --> Lauro de Freitas   : Diesel  :   364.31
+2: Salvador            --> Lauro de Freitas   : Gasolina:   368.40
+3: Salvador            --> Lauro de Freitas   : GLP     :   173.97
+4: Salvador            --> Lauro de Freitas   : Naftas  :   280.40
+1: Salvador            --> Magé               : Diesel  :   440.98
+2: Salvador            --> Magé               : Gasolina:   445.93
+3: Salvador            --> Magé               : GLP     :   210.58
+4: Salvador            --> Magé               : Naftas  :   339.41
+1: Salvador            --> Passo Fundo        : Diesel  :   366.86
+2: Salvador            --> Passo Fundo        : Gasolina:   370.99
+3: Salvador            --> Passo Fundo        : GLP     :   175.19
+4: Salvador            --> Passo Fundo        : Naftas  :   282.36
+1: Salvador            --> Porto Alegre       : Diesel  :  2656.70
+2: Salvador            --> Porto Alegre       : Gasolina:  2686.55
+3: Salvador            --> Porto Alegre       : GLP     :  1268.65
+4: Salvador            --> Porto Alegre       : Naftas  :  2044.77
+1: Salvador            --> Recife             : Diesel  :  2956.61
+2: Salvador            --> Recife             : Gasolina:  2989.83
+3: Salvador            --> Recife             : GLP     :  1411.86
+4: Salvador            --> Recife             : Naftas  :  2275.59
+1: Salvador            --> Salvador           : Diesel  :  5162.57
+2: Salvador            --> Salvador           : Gasolina:  5220.57
+3: Salvador            --> Salvador           : GLP     :  2465.27
+4: Salvador            --> Salvador           : Naftas  :  3973.44
+1: Salvador            --> São Luís           : Diesel  :  1986.36
+2: Salvador            --> São Luís           : Gasolina:  2008.68
+3: Salvador            --> São Luís           : GLP     :   948.54
+4: Salvador            --> São Luís           : Naftas  :  1528.83
+1: Salvador            --> São Vicente        : Diesel  :   660.09
+2: Salvador            --> São Vicente        : Gasolina:   667.51
+3: Salvador            --> São Vicente        : GLP     :   315.21
+4: Salvador            --> São Vicente        : Naftas  :   508.05
+----------------------------------------------------------------

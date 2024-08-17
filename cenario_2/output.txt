@@ -1,0 +1,97 @@
+Begin running model
+End running model
+
+--------------------------------------------------
+
+Custo total:                       525253212.46
+Custo Refinarias:                  200000000.00
+Custo Transporte petroleo:          63478282.28
+Custo de Transporte subprodutos:   261774930.18
+
+Refinarias instaladas:
+
+Caruaru            :    81065.5
+Magé               :   187130.7
+---------------------------------
+Total de petróleo  :   268196.2
+Sobra de petróleo  :  4397803.8
+
+Envio total e sobra de subprodutos:
+
+Refinaria Caruaru            : Diesel   : 15939.31   Sobra: 11622.95
+Refinaria Caruaru            : Gasolina : 16118.41   Sobra:  2526.65
+Refinaria Caruaru            : GLP      :  6485.24   Sobra:    -0.00
+Refinaria Caruaru            : Naftas   :  6485.24   Sobra:    -0.00
+Refinaria Magé               : Diesel   : 11937.43   Sobra: 51687.02
+Refinaria Magé               : Gasolina : 12071.56   Sobra: 30968.51
+Refinaria Magé               : GLP      :  6826.69   Sobra:  8143.77
+Refinaria Magé               : Naftas   : 14970.46   Sobra:    -0.00
+
+Quantidades transportadas dos subprodutos:
+
+1: Caruaru             --> Caruaru            : Diesel  :   657.43
+2: Caruaru             --> Caruaru            : Gasolina:   664.82
+3: Caruaru             --> Caruaru            : GLP     :   313.94
+4: Caruaru             --> Caruaru            : Naftas  :   506.00
+1: Caruaru             --> Fortaleza          : Diesel  :  4812.04
+2: Caruaru             --> Fortaleza          : Gasolina:  4866.10
+3: Caruaru             --> Fortaleza          : GLP     :  2297.88
+4: Caruaru             --> Fortaleza          : Naftas  :  3703.65
+1: Caruaru             --> Lauro de Freitas   : Diesel  :   364.31
+2: Caruaru             --> Lauro de Freitas   : Gasolina:   368.40
+3: Caruaru             --> Lauro de Freitas   : GLP     :   173.97
+1: Caruaru             --> Recife             : Diesel  :  2956.61
+2: Caruaru             --> Recife             : Gasolina:  2989.83
+3: Caruaru             --> Recife             : GLP     :  1411.86
+4: Caruaru             --> Recife             : Naftas  :  2275.59
+1: Caruaru             --> Salvador           : Diesel  :  5162.57
+2: Caruaru             --> Salvador           : Gasolina:  5220.57
+3: Caruaru             --> Salvador           : GLP     :  1339.04
+1: Caruaru             --> São Luís           : Diesel  :  1986.36
+2: Caruaru             --> São Luís           : Gasolina:  2008.68
+3: Caruaru             --> São Luís           : GLP     :   948.54
+1: Magé                --> Angra dos Reis     : Diesel  :   374.10
+2: Magé                --> Angra dos Reis     : Gasolina:   378.31
+3: Magé                --> Angra dos Reis     : GLP     :   178.65
+4: Magé                --> Angra dos Reis     : Naftas  :   287.93
+1: Magé                --> Belo Horizonte     : Diesel  :  4504.65
+2: Magé                --> Belo Horizonte     : Gasolina:  4555.26
+3: Magé                --> Belo Horizonte     : GLP     :  2151.10
+4: Magé                --> Belo Horizonte     : Naftas  :  3467.06
+1: Magé                --> Cabo Frio          : Diesel  :   416.66
+2: Magé                --> Cabo Frio          : Gasolina:   421.34
+3: Magé                --> Cabo Frio          : GLP     :   198.97
+4: Magé                --> Cabo Frio          : Naftas  :   320.69
+1: Magé                --> Campo Grande       : Diesel  :  1630.48
+2: Magé                --> Campo Grande       : Gasolina:  1648.80
+3: Magé                --> Campo Grande       : GLP     :   778.60
+4: Magé                --> Campo Grande       : Naftas  :  1254.92
+1: Magé                --> Hortolândia        : Diesel  :   422.87
+2: Magé                --> Hortolândia        : Gasolina:   427.63
+3: Magé                --> Hortolândia        : GLP     :   201.93
+4: Magé                --> Hortolândia        : Naftas  :   325.47
+1: Magé                --> Indaiatuba         : Diesel  :   464.03
+2: Magé                --> Indaiatuba         : Gasolina:   469.24
+3: Magé                --> Indaiatuba         : GLP     :   221.59
+4: Magé                --> Indaiatuba         : Naftas  :   357.15
+4: Magé                --> Lauro de Freitas   : Naftas  :   280.40
+1: Magé                --> Magé               : Diesel  :   440.98
+2: Magé                --> Magé               : Gasolina:   445.93
+3: Magé                --> Magé               : GLP     :   210.58
+4: Magé                --> Magé               : Naftas  :   339.41
+1: Magé                --> Passo Fundo        : Diesel  :   366.86
+2: Magé                --> Passo Fundo        : Gasolina:   370.99
+3: Magé                --> Passo Fundo        : GLP     :   175.19
+4: Magé                --> Passo Fundo        : Naftas  :   282.36
+1: Magé                --> Porto Alegre       : Diesel  :  2656.70
+2: Magé                --> Porto Alegre       : Gasolina:  2686.55
+3: Magé                --> Porto Alegre       : GLP     :  1268.65
+4: Magé                --> Porto Alegre       : Naftas  :  2044.77
+3: Magé                --> Salvador           : GLP     :  1126.23
+4: Magé                --> Salvador           : Naftas  :  3973.44
+4: Magé                --> São Luís           : Naftas  :  1528.83
+1: Magé                --> São Vicente        : Diesel  :   660.09
+2: Magé                --> São Vicente        : Gasolina:   667.51
+3: Magé                --> São Vicente        : GLP     :   315.21
+4: Magé                --> São Vicente        : Naftas  :   508.05
+----------------------------------------------------------------

@@ -23,8 +23,7 @@ declarations
   DemJK: array(Cid,sp) of real    ! Demanda de subproduto para cada cidade
   y: array(Cid) of mpvar
   x1: array(Cid) of mpvar         ! m3 de petróleo transportados
-  x2: array(Cid,Cid,sp) of mpvar  ! % da demanda de subprodutos transportados
-  x2c4: array(Cid,Cid) of mpvar   ! % da demanda de subprodutos transportados
+  x2: array(Cid,Cid) of mpvar  ! % da demanda de subprodutos transportados
   CFixo, C1, C2, CTot: mpvar      ! Custos calculados
   sobra, tot, vx2: real
 end-declarations
@@ -36,16 +35,47 @@ Cons:: [1.78, 1.80, 0.85, 1.37]
 Trns:: [0.34, 0.23, 0.08, 0.08]
 
 ! Nomes das cidades
-sCid:: [...]
+sCid:: ["Angra dos Reis",
+        "Belo Horizonte",
+        "Cabo Frio",
+        "Campo Grande",
+        "Caruaru",
+        "Fortaleza",
+        "Hortolândia",
+        "Indaiatuba",
+        "Lauro de Freitas",
+        "Magé",
+        "Passo Fundo",
+        "Porto Alegre",
+        "Recife",
+        "Salvador",
+        "São Luís",
+        "São Vicente"]
 
 ! Populações
-POP:: [...]
+POP:: [210171, 2530701, 234077, 916001, 369343, 2703391, 237570, 260690, 204669, 247741, 206103, 1492530, 1661017, 2900319, 1115932, 370839]
 
 ! Distâncias até Macaé
-D1:: [...]
+D1:: [252, 332, 50, 1327, 1676, 2085, 543, 547, 1109, 122, 1240, 1262, 1747, 1093, 2199, 489]
 
 ! Matriz de distâncias
-D2:: [...]
+D2:: [5,    359,  231,  1113, 1867, 2235, 307,  305,  1296, 130,  994,  1032, 1946, 1279, 2282, 237,
+      359,  5,    369,  1116, 1548, 1885, 470,  487,  983,  309,  1260, 1338, 1636, 964,  1924, 513,
+      231,  369,  5,    1327, 1725, 2136, 533,  534,  1158, 112,  1207, 1222, 1794, 1142, 2249, 466,
+      1113, 1116, 1327, 5,    2416, 2543, 810,  818,  1928, 1215, 891,  1113, 2528, 1907, 2278, 932,
+      1867, 1548, 1725, 2416, 5,    577,  2011, 2031, 570,  1759, 2803, 2886, 122,  587,  1120, 2059,
+      2235, 1885, 2136, 2543, 577,  5,    2314, 2337, 1013, 2145, 3087, 3204, 625,  1023, 655,  2393,
+      307,  470,  533,  810,  2011, 2314, 5,    25,   1450, 422,  792,  889,  2102, 1431, 2271, 148,
+      305,  487,  534,  818,  2031, 2337, 25,   5,    1469, 425,  772,  866,  2122, 1450, 2296, 128,
+      1296, 983,  1158, 1928, 570,  1013, 1450, 1469, 5,    1188, 2242, 2318, 653,  20,   1322, 1492,
+      130,  309,  112,  1215, 1759, 2145, 422,  425,  1188, 5,    1124, 1154, 1834, 1172, 2224, 367,
+      994,  1260, 1207, 891,  2803, 3087, 792,  772,  2242, 1124, 5,    227,  2895, 2223, 2974, 766,
+      1032, 1338, 1222, 1113, 2886, 3204, 889,  866,  2318, 1154, 227,  5,    2970, 2299, 3130, 826,
+      1946, 1636, 1794, 2528, 122,  625,  2102, 2122, 653,  1834, 2895, 2970, 5,    671,  1208, 2145,
+      1279, 964,  1142, 1907, 587,  1023, 1431, 1450, 20,   1172, 2223, 2299, 671,  5,    1321, 1473,
+      2282, 1924, 2249, 2278, 1120, 655,  2271, 2296, 1322, 2224, 2974, 3130, 1208, 1321, 5,    2382,
+      237,  513,  466,  932,  2059, 2393, 148,  128,  1492, 367,  766,  826,  2145, 1473, 2382, 5]
+
 
 ! Calcular demandas
 forall (j in Cid, k in sp) do
@@ -53,18 +83,19 @@ forall (j in Cid, k in sp) do
 end-do
 
 ! Composição da FO:
-
-CFixo := sum(i in Cid) CustoInst * y(i)							! Custo de instalação das refinarias em cada cidade
-C1 := sum(i in Cid) * CTP * D1(i) * x1(i)						! Custo de transporte de petróleo para cada refininaria
-C2 := sum(i in Cid, j in Cid, k in sp) * CTS * D2(i,j) * x2(i,j,k) * DemJK(j,k)		! Custo de transporte de subprodutos para cada cidade consumidora
-CTot := CFixo + C1 + C2
+CFixo = sum(i in Cid) CustoInst * y(i)							  ! Custo de instalação das refinarias em cada cidade
+C1 = sum(i in Cid) CTP * x1(i) * D1(i)						    ! Custo de transporte de petróleo para cada refinaria
+C2 = sum(i in Cid, j in Cid, k in sp) CTS * D2(i,j) * x2(i,j) * DemJK(j,k)		! Custo de transporte de subprodutos para cada cidade consumidora
+CTot = CFixo + C1 + C2
 
 ! Restrições
+sum(i in Cid) x1(i) <= MaxPetr * 160 / 1000						        ! Capacidade da fábrica
+forall (j in Cid) sum(i in Cid) x2(i,j) = 1		    ! Demanda das cidades consumidoras
+forall (i in Cid, k in sp) x1(i) * Trns(k) >= sum(j in Cid) x2(i,j) * DemJK(j,k)		! Produção de subprodutos nas refinarias
+forall (i in Cid) x1(i) <= CapRefino * 160 / 1000 * y(i) 			! Capacidade de cada refinaria
 
-sum(i in Cid) x1(i) <= 4666000 * 160 / 1000						! Capacidade da fábrica
-forall (j in Cid, k in sp) sum(i in Cid, j in Cid, k in sp) x(i,j,k) == 1		! Demanda das cidades consumidoras
-forall (i in Cid, k in sp) x1(i) * Trns(k) >= sum(j in Cid) x2(j) * DemJK(j,k)		! Produção de subprodutos nas refinarias
-forall (i in Cid) x1(i) <= y(i) * CapRefino(i) * 160 / 1000				! Capacidade da refinaria
+forall(i in Cid) y(i) is_binary                               ! Restrição de y como binário
+forall(i in Cid, j in Cid) x2(i, j) is_binary                 ! Restrição de x2 como binário
 
 
 ! Resolver modelo
@@ -102,7 +133,7 @@ forall (i in Cid) do
   forall (k in sp) do
     tot := 0.0
     forall(j in Cid) do
-      vx2 := getsol( x2(i,j,k) )
+      vx2 := getsol( x2(i,j) )
       tot := tot + vx2*DemJK(j,k)
     end-do
     if getsol( tot ) > 1 then
@@ -117,7 +148,7 @@ writeln("")
 forall (i in Cid) do
   forall (j in Cid) do
     forall (k in sp) do
-      vx2 := getsol( x2(i,j,k) )
+      vx2 := getsol( x2(i,j) )
       if (vx2 > 0.0001) then
         writeln( k, ": ", strfmt( sCid(i), -19 ), " --> ", strfmt( sCid(j), -19 ), ": ", strfmt( sSP( k ), -8 ), ": ", strfmt( vx2*DemJK(j,k), 8, 2 ));
       end-if
