@@ -14,4 +14,4 @@ Para rodar é necessário instalar o [Xpress](https://www.fico.com/fico-xpress-o
 > mosel comp cenario_x/model.mos
 
 ### Rodar o cenário
-> model exec cenario_x/model.bim
+> model exec cenario_x/model.bim > cenario_x/output.txt
