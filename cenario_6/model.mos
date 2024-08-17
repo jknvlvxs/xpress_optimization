@@ -85,7 +85,7 @@ end-do
 
 ! Composição da FO:
 CFixo = sum(i in Cid) CustoInst * y(i)							  ! Custo de instalação das refinarias em cada cidade
-C1 = sum(i in Cid) CTP * x1(i) * D1(i)						    ! Custo de transporte de petróleo para cada refinaria
+C1 = 0						    ! Custo de transporte de petróleo para cada refinaria
 C2 = sum(i in Cid, j in Cid, k in sp) CTS * D2(i,j) * x2(i,j,k) * DemJK(j,k)		! Custo de transporte de subprodutos para cada cidade consumidora
 CTot = CFixo + C1 + C2
 
