@@ -90,11 +90,13 @@ C2 = sum(i in Cid, j in Cid, k in sp) CTS * D2(i,j) * x2(i,j,k) * DemJK(j,k)		! 
 CTot = CFixo + C1 + C2
 
 ! Restrições
-forall(i in Cid) y(i) is_binary                               ! Restrição de y como binário
 sum(i in Cid) x1(i) <= MaxPetr * 160 / 1000						        ! Capacidade da fábrica
 forall (j in Cid, k in sp) sum(i in Cid) x2(i,j,k) = 1		    ! Demanda das cidades consumidoras
 forall (i in Cid, k in sp) x1(i) * Trns(k) >= sum(j in Cid) x2(i,j,k) * DemJK(j,k)		! Produção de subprodutos nas refinarias
 forall (i in Cid) x1(i) <= CapRefino * 160 / 1000 * y(i) 			! Capacidade de cada refinaria
+
+forall(i in Cid) y(i) is_binary                               ! Restrição de y como binário
+forall(i in Cid, j in Cid, k in sp) x2(i,j,k) is_binary       ! Restrição de x2 como binário
 
 
 ! Resolver modelo
