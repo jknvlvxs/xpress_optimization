@@ -27,14 +27,6 @@ def cities_color(cities, edges):
 def edge_color(subproduct):
     if subproduct == "Petróleo":
         return "yellow"
-    elif subproduct == "Gasolina":
-        return "red"
-    elif subproduct == "Diesel":
-        return "cyan"
-    elif subproduct == "Naftas":
-        return "orange"
-    elif subproduct == "GLP":
-        return "purple"
     else:
         return "black"
 
