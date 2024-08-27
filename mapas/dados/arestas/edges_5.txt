@@ -1,0 +1,65 @@
+Macaé Belo Horizonte 268196.2 Petróleo
+Belo Horizonte Angra dos Reis 374.10 Diesel
+Belo Horizonte Angra dos Reis 378.31 Gasolina
+Belo Horizonte Angra dos Reis 178.65 GLP
+Belo Horizonte Angra dos Reis 287.93 Naftas
+Belo Horizonte Belo Horizonte 4504.65 Diesel
+Belo Horizonte Belo Horizonte 4555.26 Gasolina
+Belo Horizonte Belo Horizonte 2151.10 GLP
+Belo Horizonte Belo Horizonte 3467.06 Naftas
+Belo Horizonte Cabo Frio 416.66 Diesel
+Belo Horizonte Cabo Frio 421.34 Gasolina
+Belo Horizonte Cabo Frio 198.97 GLP
+Belo Horizonte Cabo Frio 320.69 Naftas
+Belo Horizonte Campo Grande 1630.48 Diesel
+Belo Horizonte Campo Grande 1648.80 Gasolina
+Belo Horizonte Campo Grande 778.60 GLP
+Belo Horizonte Campo Grande 1254.92 Naftas
+Belo Horizonte Caruaru 657.43 Diesel
+Belo Horizonte Caruaru 664.82 Gasolina
+Belo Horizonte Caruaru 313.94 GLP
+Belo Horizonte Caruaru 506.00 Naftas
+Belo Horizonte Fortaleza 4812.04 Diesel
+Belo Horizonte Fortaleza 4866.10 Gasolina
+Belo Horizonte Fortaleza 2297.88 GLP
+Belo Horizonte Fortaleza 3703.65 Naftas
+Belo Horizonte Hortolândia 422.87 Diesel
+Belo Horizonte Hortolândia 427.63 Gasolina
+Belo Horizonte Hortolândia 201.93 GLP
+Belo Horizonte Hortolândia 325.47 Naftas
+Belo Horizonte Indaiatuba 464.03 Diesel
+Belo Horizonte Indaiatuba 469.24 Gasolina
+Belo Horizonte Indaiatuba 221.59 GLP
+Belo Horizonte Indaiatuba 357.15 Naftas
+Belo Horizonte Lauro de Freitas 364.31 Diesel
+Belo Horizonte Lauro de Freitas 368.40 Gasolina
+Belo Horizonte Lauro de Freitas 173.97 GLP
+Belo Horizonte Lauro de Freitas 280.40 Naftas
+Belo Horizonte Magé 440.98 Diesel
+Belo Horizonte Magé 445.93 Gasolina
+Belo Horizonte Magé 210.58 GLP
+Belo Horizonte Magé 339.41 Naftas
+Belo Horizonte Passo Fundo 366.86 Diesel
+Belo Horizonte Passo Fundo 370.99 Gasolina
+Belo Horizonte Passo Fundo 175.19 GLP
+Belo Horizonte Passo Fundo 282.36 Naftas
+Belo Horizonte Porto Alegre 2656.70 Diesel
+Belo Horizonte Porto Alegre 2686.55 Gasolina
+Belo Horizonte Porto Alegre 1268.65 GLP
+Belo Horizonte Porto Alegre 2044.77 Naftas
+Belo Horizonte Recife 2956.61 Diesel
+Belo Horizonte Recife 2989.83 Gasolina
+Belo Horizonte Recife 1411.86 GLP
+Belo Horizonte Recife 2275.59 Naftas
+Belo Horizonte Salvador 5162.57 Diesel
+Belo Horizonte Salvador 5220.57 Gasolina
+Belo Horizonte Salvador 2465.27 GLP
+Belo Horizonte Salvador 3973.44 Naftas
+Belo Horizonte São Luís 1986.36 Diesel
+Belo Horizonte São Luís 2008.68 Gasolina
+Belo Horizonte São Luís 948.54 GLP
+Belo Horizonte São Luís 1528.83 Naftas
+Belo Horizonte São Vicente 660.09 Diesel
+Belo Horizonte São Vicente 667.51 Gasolina
+Belo Horizonte São Vicente 315.21 GLP
+Belo Horizonte São Vicente 508.05 Naftas

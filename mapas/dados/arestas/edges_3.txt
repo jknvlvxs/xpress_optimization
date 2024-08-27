@@ -1,0 +1,68 @@
+Macaé Belo Horizonte 79901.8 Petróleo
+Macaé Fortaleza 65405.9 Petróleo
+Macaé Porto Alegre 44775.6 Petróleo
+Macaé Salvador 78112.9 Petróleo
+Belo Horizonte Angra dos Reis 374.10 Diesel
+Belo Horizonte Angra dos Reis 378.31 Gasolina
+Belo Horizonte Angra dos Reis 178.65 GLP
+Belo Horizonte Angra dos Reis 287.93 Naftas
+Belo Horizonte Belo Horizonte 4504.65 Diesel
+Belo Horizonte Belo Horizonte 4555.26 Gasolina
+Belo Horizonte Belo Horizonte 2151.10 GLP
+Belo Horizonte Belo Horizonte 3467.06 Naftas
+Belo Horizonte Cabo Frio 416.66 Diesel
+Belo Horizonte Cabo Frio 421.34 Gasolina
+Belo Horizonte Cabo Frio 198.97 GLP
+Belo Horizonte Cabo Frio 320.69 Naftas
+Belo Horizonte Caruaru 506.00 Naftas
+Belo Horizonte Hortolândia 422.87 Diesel
+Belo Horizonte Hortolândia 427.63 Gasolina
+Belo Horizonte Hortolândia 201.93 GLP
+Belo Horizonte Hortolândia 325.47 Naftas
+Belo Horizonte Indaiatuba 464.03 Diesel
+Belo Horizonte Indaiatuba 469.24 Gasolina
+Belo Horizonte Indaiatuba 221.59 GLP
+Belo Horizonte Indaiatuba 357.15 Naftas
+Belo Horizonte Lauro de Freitas 280.40 Naftas
+Belo Horizonte Magé 440.98 Diesel
+Belo Horizonte Magé 445.93 Gasolina
+Belo Horizonte Magé 210.58 GLP
+Belo Horizonte Magé 339.41 Naftas
+Belo Horizonte São Vicente 660.09 Diesel
+Belo Horizonte São Vicente 667.51 Gasolina
+Belo Horizonte São Vicente 315.21 GLP
+Belo Horizonte São Vicente 508.05 Naftas
+Fortaleza Caruaru 657.43 Diesel
+Fortaleza Caruaru 664.82 Gasolina
+Fortaleza Caruaru 313.94 GLP
+Fortaleza Fortaleza 4812.04 Diesel
+Fortaleza Fortaleza 4866.10 Gasolina
+Fortaleza Fortaleza 2297.88 GLP
+Fortaleza Fortaleza 3703.65 Naftas
+Fortaleza Recife 2956.61 Diesel
+Fortaleza Recife 2989.83 Gasolina
+Fortaleza Recife 1411.86 GLP
+Fortaleza São Luís 1986.36 Diesel
+Fortaleza São Luís 2008.68 Gasolina
+Fortaleza São Luís 948.54 GLP
+Fortaleza São Luís 1528.83 Naftas
+Porto Alegre Campo Grande 1630.48 Diesel
+Porto Alegre Campo Grande 1648.80 Gasolina
+Porto Alegre Campo Grande 778.60 GLP
+Porto Alegre Campo Grande 1254.92 Naftas
+Porto Alegre Passo Fundo 366.86 Diesel
+Porto Alegre Passo Fundo 370.99 Gasolina
+Porto Alegre Passo Fundo 175.19 GLP
+Porto Alegre Passo Fundo 282.36 Naftas
+Porto Alegre Porto Alegre 2656.70 Diesel
+Porto Alegre Porto Alegre 2686.55 Gasolina
+Porto Alegre Porto Alegre 1268.65 GLP
+Porto Alegre Porto Alegre 2044.77 Naftas
+Salvador Lauro de Freitas 364.31 Diesel
+Salvador Lauro de Freitas 368.40 Gasolina
+Salvador Lauro de Freitas 173.97 GLP
+Salvador Recife 2275.59 Naftas
+Salvador Salvador 5162.57 Diesel
+Salvador Salvador 5220.57 Gasolina
+Salvador Salvador 2465.27 GLP
+Salvador Salvador 3973.44 Naftas

@@ -1,0 +1,65 @@
+Macaé Salvador 268196.2 Petróleo
+Salvador Angra dos Reis 374.10 Diesel
+Salvador Angra dos Reis 378.31 Gasolina
+Salvador Angra dos Reis 178.65 GLP
+Salvador Angra dos Reis 287.93 Naftas
+Salvador Belo Horizonte 4504.65 Diesel
+Salvador Belo Horizonte 4555.26 Gasolina
+Salvador Belo Horizonte 2151.10 GLP
+Salvador Belo Horizonte 3467.06 Naftas
+Salvador Cabo Frio 416.66 Diesel
+Salvador Cabo Frio 421.34 Gasolina
+Salvador Cabo Frio 198.97 GLP
+Salvador Cabo Frio 320.69 Naftas
+Salvador Campo Grande 1630.48 Diesel
+Salvador Campo Grande 1648.80 Gasolina
+Salvador Campo Grande 778.60 GLP
+Salvador Campo Grande 1254.92 Naftas
+Salvador Caruaru 657.43 Diesel
+Salvador Caruaru 664.82 Gasolina
+Salvador Caruaru 313.94 GLP
+Salvador Caruaru 506.00 Naftas
+Salvador Fortaleza 4812.04 Diesel
+Salvador Fortaleza 4866.10 Gasolina
+Salvador Fortaleza 2297.88 GLP
+Salvador Fortaleza 3703.65 Naftas
+Salvador Hortolândia 422.87 Diesel
+Salvador Hortolândia 427.63 Gasolina
+Salvador Hortolândia 201.93 GLP
+Salvador Hortolândia 325.47 Naftas
+Salvador Indaiatuba 464.03 Diesel
+Salvador Indaiatuba 469.24 Gasolina
+Salvador Indaiatuba 221.59 GLP
+Salvador Indaiatuba 357.15 Naftas
+Salvador Lauro de Freitas 364.31 Diesel
+Salvador Lauro de Freitas 368.40 Gasolina
+Salvador Lauro de Freitas 173.97 GLP
+Salvador Lauro de Freitas 280.40 Naftas
+Salvador Magé 440.98 Diesel
+Salvador Magé 445.93 Gasolina
+Salvador Magé 210.58 GLP
+Salvador Magé 339.41 Naftas
+Salvador Passo Fundo 366.86 Diesel
+Salvador Passo Fundo 370.99 Gasolina
+Salvador Passo Fundo 175.19 GLP
+Salvador Passo Fundo 282.36 Naftas
+Salvador Porto Alegre 2656.70 Diesel
+Salvador Porto Alegre 2686.55 Gasolina
+Salvador Porto Alegre 1268.65 GLP
+Salvador Porto Alegre 2044.77 Naftas
+Salvador Recife 2956.61 Diesel
+Salvador Recife 2989.83 Gasolina
+Salvador Recife 1411.86 GLP
+Salvador Recife 2275.59 Naftas
+Salvador Salvador 5162.57 Diesel
+Salvador Salvador 5220.57 Gasolina
+Salvador Salvador 2465.27 GLP
+Salvador Salvador 3973.44 Naftas
+Salvador São Luís 1986.36 Diesel
+Salvador São Luís 2008.68 Gasolina
+Salvador São Luís 948.54 GLP
+Salvador São Luís 1528.83 Naftas
+Salvador São Vicente 660.09 Diesel
+Salvador São Vicente 667.51 Gasolina
+Salvador São Vicente 315.21 GLP
+Salvador São Vicente 508.05 Naftas

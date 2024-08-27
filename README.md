@@ -28,3 +28,8 @@ Baixar o mapa de países em [Natural Earth Data](https://www.naturalearthdata.co
 > python mapas/coords.py
 
 Irá gerar o arquivo `mapas/dados/cities.pkl` que será usado para desenhar os nós no mapa
+
+## Gerar pickle de arestas para cada cenário
+> python mapas/edges.py
+
+Irá gerar os arquvios `mapas/dados/arestas/edges_x.pkl` para simbolizar cada aresta do mapa
