@@ -4,6 +4,22 @@ import geopandas as gpd
 from shapely.geometry import Point
 import pickle
 
+
+def cities_color(cities):
+    colors = []
+    for city in cities:
+        if city == "Macaé":
+            colors.append("#FFFF00")
+        elif city == "Salvador":
+            colors.append("#0000FF")
+        elif city == "Belo Horizonte":
+            colors.append("#00FF00")
+        else:
+            colors.append("#FFFF00")
+    print(colors)
+    return colors
+
+
 # Load cities object from 'cities.pkl'
 with open("mapas/dados/cities.pkl", "rb") as f:
     cities = pickle.load(f)
@@ -36,7 +52,7 @@ fig, ax = plt.subplots(figsize=(10, 10))
 brasil.plot(ax=ax, color="lightgray")
 
 # Plotar os nós das cidades
-city_points.plot(ax=ax, color="red", markersize=100)
+city_points.plot(ax=ax, color=cities_color(cities.keys()), markersize=100)
 
 # Obter as posições dos nós para o grafo
 pos = nx.get_node_attributes(G, "pos")
@@ -47,7 +63,6 @@ nx.draw(
     pos,
     ax=ax,
     with_labels=True,
-    node_color="red",
     edge_color="blue",
     node_size=1,
     font_size=7,
