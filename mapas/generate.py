@@ -28,8 +28,8 @@ for city, (lat, lon) in cities.items():
     G.add_node(city, pos=(lon, lat))
 
 # Adicionar arestas
-G.add_edge("Porto Alegre", "Salvador")
-G.add_edge("Belo Horizonte", "Salvador")
+# G.add_edge("Porto Alegre", "Salvador")
+# G.add_edge("Belo Horizonte", "Salvador")
 
 # Plotar o mapa do Brasil
 fig, ax = plt.subplots(figsize=(10, 10))

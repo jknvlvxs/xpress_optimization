@@ -87,6 +87,8 @@ def formatar_nome(nome):
 # Carregar as cidades do arquivo
 cidades = load_cidades("dados/Dados_G05.txt")
 
+cidades.append({"nome": "Macaé, RJ, Brazil", "pop": 9999999999999})
+
 # Obter as coordenadas das cidades
 cities = {formatar_nome(cidade["nome"]): coord(cidade) for cidade in cidades}
 
